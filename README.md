@@ -1,4 +1,4 @@
-import the json file to mongodb compass
+import the eCommerce.items.json file to mongodb compass
 
 Database name: eCommerce
 Collection name: items
