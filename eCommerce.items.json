@@ -1,0 +1,240 @@
+[{
+  "_id": {
+    "$oid": "669bbfcf74646990f1e1eb90"
+  },
+  "name": "iPhone 15 Pro Max",
+  "price": 84990,
+  "image": "https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/article/Apple-iPhone-15-Pro-lineup-color-lineup-geo-230912_big.jpg.large.jpg",
+  "description": "The iPhone 15 Pro Max boasts a stunning 6.7-inch Super Retina XDR display, powered by the latest A17 Pro chip ",
+  "category": "iPhone",
+  "stock": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669bc07e74646990f1e1eb91"
+  },
+  "name": "iPhone 15 Pro",
+  "price": 79990,
+  "image": "https://cdn.discordapp.com/attachments/1150467390488977490/1263800038228754455/iphone15pro.jpg?ex=66a17bc1&is=66a02a41&hm=c38e25ca778e284560fa7b9f06bc32d0c569567092f6ae55897f369b451b8150&",
+  "description": "The iPhone 15 Pro features a 6.1-inch Super Retina XDR display and is equipped with the cutting-edge A17 Pro chip ",
+  "category": "iPhone",
+  "stock": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66951593ad68f475e251e31a"
+  },
+  "name": "iPhone 14 Pro Max",
+  "price": 77990,
+  "image": "https://cdn.discordapp.com/attachments/1150467390488977490/1263800095833460817/iphone14promax.jpg?ex=66a17bcf&is=66a02a4f&hm=8756163c03ee77d257fd13f9b55a49e6f7afa8e10efa57ee69972f3876dc6be8&",
+  "description": "The iPhone 14 Pro Max features a 6.7-inch display, A15 Bionic chip, and advanced camera systems.",
+  "category": "iPhone",
+  "stock": 33,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66952716ad68f475e251e37d"
+  },
+  "name": "iPhone 14",
+  "price": 56990,
+  "image": "https://cdn.discordapp.com/attachments/1150467390488977490/1263800113839734784/iphone14.jpg?ex=66a17bd3&is=66a02a53&hm=00c85cdbc6bcd8ff040a95325939a39eacfbf1bb27de9948428773f018bcd61d&",
+  "description": "The iPhone 14 features a 6.1-inch display, A15 Bionic chip, advanced camera system, and more.",
+  "category": "iPhone",
+  "stock": 43,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66952baf12a87c5de03319f9"
+  },
+  "name": "iPad 13 Pro",
+  "price": 69935,
+  "image": "https://cdn.discordapp.com/attachments/1150467390488977490/1263800130625208341/ipad13pro.jpg?ex=66a17bd7&is=66a02a57&hm=ea6cd987923581ec8e669076e470e695e3e504fd3daad9213271f116e3a07a35&",
+  "description": "The iPad 13 Pro boasts a 12.9-inch display, M1 chip, advanced camera systems, and enhanced performance",
+  "category": "Tablets",
+  "stock": 46,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66952bc212a87c5de03319fc"
+  },
+  "name": "Samsung S24 Ultra",
+  "price": 84990,
+  "image": "https://cdn.discordapp.com/attachments/1150467390488977490/1263800198824595466/samsung24ultra.jpg?ex=66a17be7&is=66a02a67&hm=f1fa87af82f948f7bbd5c6df851f46351645c30218bd29ab36a793cd7ae4884e&",
+  "description": "The Samsung S24 Ultra features a 6.8-inch display, Exynos 2200 chip, and advanced camera systems.",
+  "category": "Samsung Phones",
+  "stock": 45,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6695353d658ec1a91802ce4d"
+  },
+  "name": "Samsung S24 Plus",
+  "price": 68990,
+  "image": "https://cdn.discordapp.com/attachments/1150467390488977490/1263800229757718621/samsung24plus.jpg?ex=66a17bef&is=66a02a6f&hm=3a182956504d0c635b7bea19c00e67f8cc410894d30fbfaa3698c87c66747df7&",
+  "description": "The Samsung S24 Plus features a 6.7-inch display, Exynos 2200 chip, and advanced camera systems.",
+  "category": "Samsung Phones",
+  "stock": 50,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6698dfe5caa9a4cff0db1566"
+  },
+  "name": "Samsung S23 Ultra",
+  "price": 81990,
+  "image": "https://cdn.discordapp.com/attachments/1150467390488977490/1263800281595117638/samsung23ultra.jpg?ex=66a17bfb&is=66a02a7b&hm=16f299bbd92464df99a79cd19a4371f5ea65aa293e35a13e90687fd16b95d232&",
+  "description": "The Samsung S23 Ultra features a 6.8-inch display, Exynos 2200 chip, and advanced camera systems.",
+  "category": "Samsung Phones",
+  "stock": 50,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669bd3898a3e9a2fbf0b73c3"
+  },
+  "name": "Samsung S23 Plus",
+  "price": 68990,
+  "image": "https://cdn.discordapp.com/attachments/1150467390488977490/1263800302650392617/samsung23plus.jpg?ex=66a17c00&is=66a02a80&hm=d35b7c38464008a6f43db28d8669b9ad9dbd7f574a76498564dfaf3db4afccb1&",
+  "description": "The Samsung S23 Plus features a 6.7-inch display, Exynos 2200 chip, and advanced camera systems.",
+  "category": "Samsung Phones",
+  "stock": 49,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669bd38b8a3e9a2fbf0b73c4"
+  },
+  "name": "Samsung Z Fold 5",
+  "price": 98990,
+  "image": "https://cdn.discordapp.com/attachments/1150467390488977490/1263800381281140769/samsungzfold5.jpg?ex=66a17c13&is=66a02a93&hm=0fc7c73305e6d0a8f955ccaccafdbfe7ccc8f2ae600e6a7538632a9bcab249b5&",
+  "description": "The Samsung Z Fold 5 features a 7.6-inch display, Exynos 2200 chip, and advanced camera systems.",
+  "category": "Samsung Phones",
+  "stock": 50,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669bd38e8a3e9a2fbf0b73c5"
+  },
+  "name": "Google Pixel 8 Pro",
+  "price": 56990,
+  "image": "https://cdn.discordapp.com/attachments/1150467390488977490/1263800431713321040/googlepixel8pro.jpg?ex=66a17c1f&is=66a02a9f&hm=3a39bcaf874ea423088c7089c00033ccdc1705a6e960e4ebb65c5b5fb7dc5664&",
+  "description": "The Google Pixel 8 Pro features a 6.7-inch display, Google Tensor chip, and advanced camera systems.",
+  "category": "Google Phones",
+  "stock": 50,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669bd3908a3e9a2fbf0b73c6"
+  },
+  "name": "Google Pixel 8",
+  "price": 55990,
+  "image": "https://cdn.discordapp.com/attachments/1150467390488977490/1263800454119424082/googlepixel8.jpg?ex=66a17c24&is=66a02aa4&hm=b5c29b33bcd0c0f0906dcb1baf9d4d15e7d8ab68678b62dda3f94f84bed35ef1&",
+  "description": "The Google Pixel 8 features a 6.3-inch display, Google Tensor chip, and advanced camera systems.",
+  "category": "Google Phones",
+  "stock": 50,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669bd3938a3e9a2fbf0b73c7"
+  },
+  "name": "Google Pixel 7 Pro",
+  "price": 49990,
+  "image": "https://cdn.discordapp.com/attachments/1150467390488977490/1263800494883606620/googlepixel7pro.jpg?ex=66a17c2e&is=66a02aae&hm=c5f8b4dfeb5083e00a5b0e38785208a607aa6f94250696827f264391fa565d52&",
+  "description": "The Google Pixel 7 Pro features a 6.7-inch display, Google Tensor chip, and advanced camera systems.",
+  "category": "Google Phones",
+  "stock": 50,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669bd3958a3e9a2fbf0b73c8"
+  },
+  "name": "Google Pixel 7",
+  "price": 35990,
+  "image": "https://cdn.discordapp.com/attachments/1150467390488977490/1263800515322707989/googlepixel7.jpg?ex=66a17c33&is=66a02ab3&hm=0f3f38e8f34367b73ccb5c93b22cc48855bdd141913508f26cd5582bcde273ae&",
+  "description": "The Google Pixel 7 features a 6.3-inch display, Google Tensor chip, and advanced camera systems.",
+  "category": "Google Phones",
+  "stock": 50,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669bd3978a3e9a2fbf0b73c9"
+  },
+  "name": "Google Pixel 6 Pro",
+  "price": 45990,
+  "image": "https://cdn.discordapp.com/attachments/1150467390488977490/1263800548902047787/googlepixel6pro.jpg?ex=66a17c3b&is=66a02abb&hm=c56be9a7928b5ffa53d95d791ea7912c34975f5b9416caebb4e2935e16cb2449&",
+  "description": "The Google Pixel 6 Pro features a 6.7-inch display, Google Tensor chip, and advanced camera systems.",
+  "category": "Google Phones",
+  "stock": 50,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669bd39a8a3e9a2fbf0b73ca"
+  },
+  "name": "Xiaomi 14",
+  "price": 45990,
+  "image": "https://cdn.discordapp.com/attachments/1150467390488977490/1263800635904753704/xiaomi14.webp?ex=66a17c4f&is=66a02acf&hm=3f010156d9bf3c4063fd2057ed9814b30c28eb9af74f639cbb74504a8a632665&",
+  "description": "The Xiaomi 14 features a 6.4-inch display, Snapdragon 8 Gen 1 chip, and advanced camera systems.",
+  "category": "Xiaomi Phones",
+  "stock": 50,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669bd39c8a3e9a2fbf0b73cb"
+  },
+  "name": "Xiaomi 13 Pro",
+  "price": 59990,
+  "image": "https://cdn.discordapp.com/attachments/1150467390488977490/1263800657601888256/xiaomi13pro.jpg?ex=66a17c55&is=66a02ad5&hm=730c39d6418f806ca031171c47b5e9f23ba02d9f55663398afd414debf36a4b5&",
+  "description": "The Xiaomi 13 Pro features a 6.7-inch display, Snapdragon 8 Gen 1 chip, and advanced camera systems.",
+  "category": "Xiaomi Phones",
+  "stock": 50,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669bd39e8a3e9a2fbf0b73cc"
+  },
+  "name": "Xiaomi 11",
+  "price": 36990,
+  "image": "https://cdn.discordapp.com/attachments/1150467390488977490/1263800679668121700/xiaomimi11.jpg?ex=66a17c5a&is=66a02ada&hm=86d30fbfb891d224210ae68009f94778761b20fdcff594d7c10ec51d820e7070&",
+  "description": "The Xiaomi 11 features a 6.7-inch display, Snapdragon 870 chip, and advanced camera systems.",
+  "category": "Xiaomi Phones",
+  "stock": 49,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669bd3a18a3e9a2fbf0b73cd"
+  },
+  "name": "Xiaomi Fold 3",
+  "price": 71990,
+  "image": "https://cdn.discordapp.com/attachments/1150467390488977490/1263800695992356908/xiaomifold3.webp?ex=66a17c5e&is=66a02ade&hm=2896263c9da4b40ea6bf96639c1fa36b43dcc37a496655cfdac2c2e0613e2f55&",
+  "description": "The Xiaomi Fold features a 8.01-inch display, Snapdragon 888 chip, and advanced camera systems.",
+  "category": "Xiaomi Phones",
+  "stock": 49,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669bd3a38a3e9a2fbf0b73ce"
+  },
+  "name": "Redmi Note 12",
+  "price": 8990,
+  "image": "https://cdn.discordapp.com/attachments/1150467390488977490/1263800754041258067/redmitnote12.jpg?ex=66a17c6c&is=66a02aec&hm=86dd3d438416e830c4c85188dce68d5af9b419b611e3352a4fd843177430c90c&",
+  "description": "The Redmi Note 12 features a 6.67-inch display, Snapdragon 695 chip, and advanced camera systems.",
+  "category": "Xiaomi Phones",
+  "stock": 49,
+  "__v": 0
+}]
