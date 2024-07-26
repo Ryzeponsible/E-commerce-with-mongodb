@@ -10,6 +10,6 @@ To run the code, the first step you do is open the cmd and then check the file l
 1. npm init -y
 2. npm install express mongodb
 3. node server.mjs
-4. Type "localhost:3000"
+4. In your browser, type "localhost:3000"
 
 and you are done!!
