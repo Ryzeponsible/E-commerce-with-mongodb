@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SellPhone E-commerce</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-title">
+            <img src="media/logo.png" onerror="this.src='images/not_found.png';" alt="Logo" class="logo" />
+            <h3>SellPhone</h3>
+        </div>
+        <button id="cart-button"><img src="media/carticon.png" id="cart-icon"> <span id="cart-count">0</span></button>
+    </header>
+
+    <div class="slideshow-container">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="media/slideshowgoogle.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="media/slideshowiphone.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="media/slideshowsamsung.png" style="width:100%">
+            </div>
+        </div>
+    </div>
+    <hr>
+    <hr>
+
+    <h2>Smartphone Products</h2>
+    <div class="products">
+        <!-- Product cards here -->
+    </div>
+
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Your Cart</h2>
+            <ul id="cart-items"></ul>
+            <p>Subtotal: ₱<span id="cart-subtotal">0</span></p>
+            <p>Shipping Fee: ₱<span id="shipping-fee">0</span></p>
+            <p>Discount: ₱<span id="discount">0</span></p>
+            <p>Total: ₱<span id="cart-total">0</span></p>
+            <div class="row">
+                <div class="col-25">
+                    <div class="container">
+                        <form id="checkout-form">
+                            <div class="row">
+                                <div class="col-50">
+                                    <h3>Billing Address</h3>
+                                    <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                                    <input type="text" id="fname" name="firstname" placeholder="Enter your First name"
+                                        required>
+                                    <label for="email"><i class="fa fa-envelope"></i> E-mail Address</label>
+                                    <input type="email" id="email" name="email" placeholder="Enter your Last name">
+                                    <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                                    <input type="text" id="adr" name="address" placeholder="Enter your Address"
+                                        required>
+                                    <label for="city"><i class="fa fa-institution"></i> City</label>
+                                    <input type="text" id="city" name="city" placeholder="Enter your City" required>
+                                    <label for="zip"><i class="fa fa-institution"></i> Zip</label>
+                                    <input type="number" id="zip" name="zip" placeholder="Enter your Zip" required>
+
+                                    <label for="fname">Shipping Method</label>
+                                    <br>
+                                    <i class="mastercard" style="float: left;">
+                                        <input type="radio"> <img class="paymenticon"
+                                            src="https://1.bp.blogspot.com/-DpwYNbG0Mqw/YILHVFOvquI/AAAAAAAAIVs/EubHS0GrTG4OVeRrLvOEv_cIMYZYuf8MQCLcBGAsYHQ/s16000/LOGO-JNT.png">
+                                    </i>
+                                    <i class="visa" style="float: left;">
+                                        <input type="radio"> <img class="paymenticon"
+                                            src="https://business.inquirer.net/files/2018/03/LBC_Express_2013_Logo.svg_-1024x901.png">
+                                    </i>
+
+                                </div>
+                                <div class="col-50">
+                                    <h3>Payment</h3>
+                                    <div class="col-50">
+                                        <label for="fname">Accepted Cards</label>
+                                        <div class="icon-container">
+                                            <i class="mastercard"><img class="paymenticon"
+                                                    src="https://logos-world.net/wp-content/uploads/2020/09/Mastercard-Logo-2016-2020.png">
+                                            </i>
+                                            <i class="visa"><img class="paymenticon"
+                                                    src="https://logos-world.net/wp-content/uploads/2020/04/Visa-Emblem.jpg">
+                                            </i>
+                                            <i class="gcash"><img class="paymenticon"
+                                                    src="https://orangemagazine.ph/wp-content/uploads/2019/07/received_336957633908411.jpeg">
+                                            </i>
+                                            <i class="maya"><img class="paymenticon"
+                                                    src="https://play-lh.googleusercontent.com/MYVxoAAKgx1buBB-jn-U1wb8iUguAKwWH6EtfdT6l-zA_xqw2bxbHvycs25RXt9NZR4"></i>
+                                        </div>
+                                        <label for="cname">Name on Card</label>
+                                        <input type="text" id="cname" name="cardname"
+                                            placeholder="Enter Name on the Card" required>
+                                        <label for="ccnum">Credit card number</label>
+                                        <input type="number" id="ccnum" name="cardnumber"
+                                            placeholder="16 Digits number" required>
+                                        <label for="expmonth">Exp Month</label>
+                                        <input type="number" id="expmonth" name="expmonth"
+                                            placeholder="Enter your Expiry Month" required>
+                                        <label for="expyear">Exp Year</label>
+                                        <input type="number" id="expyear" name="expyear"
+                                            placeholder="Enter your Expiry year" required>
+                                        <label for="cvv">CVV</label>
+                                        <input type="number" id="cvv" name="cvv" placeholder="3 or 4 Digits number" required>
+                                    </div>
+                                </div>
+                                <button type="button" class="buynow" onclick="handleBuyNow()">Buy Now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; BIT32 . All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
